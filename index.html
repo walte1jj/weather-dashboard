@@ -22,7 +22,7 @@
                         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="enter-city">
                     </form>
                     <form class="form-inline md-form mr-auto mb-4">
-                        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+                        <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit" id="search-button">Search</button>
                     </form>
                     <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear history</button>
                     <form id="history"></form>
@@ -56,7 +56,7 @@
             </div>
         </div>
         
-        <script src="https://api.openweathermap.org/data/2.5/onecall?lat={42.36}&lon={-83.06}&exclude={alerts}&appid={7b5389d6ab680a1ed8a5423e6c17e27d}"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="./assets/index.js"></script>
     </body>
 </html>
